@@ -1,0 +1,35 @@
+{
+  "name": "vite",
+  "version": "1.0.0",
+  "description": "vite study",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "server": "vite preview",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ankera/vite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ankera/vite/issues"
+  },
+  "homepage": "https://github.com/Ankera/vite#readme",
+  "dependencies": {
+    "vue": "^3.2.45"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "@vitejs/plugin-vue": "^3.2.0",
+    "@vue/compiler-sfc": "^3.2.45",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.0.4",
+    "vite": "^3.2.4"
+  }
+}
